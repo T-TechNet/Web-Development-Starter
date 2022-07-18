@@ -3,6 +3,65 @@
   <head>
     <meta charset="utf-8" />
     <title>Welcome to Webdevelopment starter course!</title>
+    <style>
+      /* All p elements */
+      p {
+        font-size: 30px;
+        color: blue;
+      }
+
+      /* All h1 elements */
+
+      h1 {
+        color: cyan;
+        font-size: 50px;
+        text-align: justify;
+      }
+      /* usage - class = "bk-color" */
+      .bk-color {
+        font-size: 30px;
+        font-weight: bold;
+        background-color: rgb(76, 0, 255);
+        font-style: italic;
+        width: 180px;
+      }
+
+      /* usage - id="last-paragraph" */
+      #last-paragraph {
+        font-size: 12px;
+        font-weight: bolder;
+        font-style: italic;
+        background-color: royalblue;
+      }
+      h1,
+      h2 {
+        color: rgb(225, 238, 43);
+      }
+
+      /* any p will be a direct child of div */
+      div > p {
+        color: rgb(252, 106, 8);
+      }
+
+      /* all p elements with class = "change-font" */
+      p.change-font {
+        color: rgb(32, 180, 64);
+        font-style: italic;
+      }
+
+      /* all li element */
+      li {
+        color: red;
+      }
+
+      ul li {
+        color: rgb(12, 51, 85);
+      }
+
+      .img-pos {
+        left: 60%;
+      }
+    </style>
   </head>
   <body>
     <!-- This is the Heading of the page -->
@@ -10,7 +69,7 @@
     <!-- The first paragraph starts here -->
     <!-- Link in the same page -->
     Go to the <a href="#last-paragraph">last paragraph</a>.
-    <h2>Subheading 2</h2>
+    <h2 class="bk-color">Subheading 2</h2>
     <div>
       <p>
         This is a prargraph!This is a prargraph!This is a prargraph!This is a
@@ -31,7 +90,9 @@
     <br />
     <!-- Formatting HTML -->
     <h1>This is <i>italic</i> heading</h1>
-    <p>This is <u> underlined</u> in the paragraph.</p>
+    <article>
+      <p class="change-font">This is <u> underlined</u> in the paragraph.</p>
+    </article>
     <p align="left">This is left aligned</p>
     <p align="center">This is center aligned</p>
     <p align="right">This is right aligned</p>
@@ -82,6 +143,7 @@
 
     <hr />
     <img
+      class="img-pos"
       height="500px"
       width="500px"
       src="https://images.pexels.com/photos/541484/sun-flower-blossom-bloom-pollen-541484.jpeg"
