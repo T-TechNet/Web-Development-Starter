@@ -2,8 +2,99 @@
 <html>
   <head>
     <title>Welcome to Web Development Course 2!</title>
+    <style>
+      html {
+        font-size: 20px;
+      }
+      .row {
+        display: flex;
+      }
+
+      .column {
+        float: left;
+        width: auto;
+      }
+
+      a:hover,
+      a:active {
+        background-color: blue;
+        color: rgba(74, 75, 114, 0.726);
+        border: 1px solid blue;
+      }
+
+      a:link,
+      a:visited {
+        text-align: center;
+        margin-top: 1px;
+      }
+      .test-opacity {
+        background-color: green;
+        font-weight: bold;
+        background-image: linear-gradient(cyan, green, black);
+        padding: 10px;
+        border: 1px solid black;
+        width: 300px;
+        margin-top: 50px;
+        border-radius: 5px;
+        overflow: auto;
+        opacity: 0.7;
+      }
+      .test-opacity-fontstyle {
+        font-style: italic;
+        color: aliceblue;
+      }
+      div a {
+        color: antiquewhite;
+      }
+
+      p {
+        color: blue;
+        text-indent: 10%;
+      }
+
+      div {
+        font-size: 20px;
+      }
+      div h2 {
+        font-size: 4em;
+      }
+      div h3 {
+        font-size: 2em;
+      }
+      div h4 {
+        font-size: 1em;
+      }
+      div h5 {
+        font-size: 0.5em;
+      }
+    </style>
   </head>
+  <header>
+    <div class="row">
+      <div class="column">Logo</div>
+      <div class="test-opacity-fontstyle column">
+        <span class="test-opacity"><a href="index.html">Home</a></span>
+        <span class="test-opacity"
+          ><a href="https://google.com">Google</a></span
+        >
+        <span class="test-opacity"
+          ><a href="https://youtube.com">YouTube</a></span
+        >
+        <span class="test-opacity"
+          ><a href="https://facebook.com">Facebook</a></span
+        >
+      </div>
+      <div class="column">Search</div>
+      <div class="column">User</div>
+    </div>
+  </header>
   <body>
+    <div>
+      <h2>This is h2 under div!</h2>
+      <h3>This is h3 under div!</h3>
+      <h4>This is h4 under div!</h4>
+      <h5>This is h5 under div!</h5>
+    </div>
     <p>Blah Blah Blah</p>
   </body>
 </html>
