@@ -1,0 +1,29 @@
+p {
+  border: 1px solid brown;
+}
+
+#p1 {
+  background-color: rgba(0, 0, 255, 0.144);
+}
+
+#p2 {
+  background-color: rgb(22, 114, 194);
+}
+
+@media (min-width: 1200px) {
+  #p1 {
+    width: 75%;
+  }
+  #p2 {
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  #p1 {
+    width: 40%;
+  }
+  #P2 {
+    width: 100px;
+  }
+}
