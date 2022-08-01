@@ -38,10 +38,11 @@ p {
 }
 
 #p1 {
+  width: 100px;
+  height: 100px;
+  left: 50px;
   background-color: #2aa52a;
-  position: relative;
-  top: 205px;
-  left: 1250px;
+  position: absolute;
 }
 #p2 {
   background-color: #400ec9;
