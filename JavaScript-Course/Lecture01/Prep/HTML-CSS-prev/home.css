@@ -1,0 +1,19 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    max-width: 98%;
+  }
+
+.banner__image {
+    position: relative;
+    top: -259px;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -355px;
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(206, 209, 36, 0)
+    );
+  }
