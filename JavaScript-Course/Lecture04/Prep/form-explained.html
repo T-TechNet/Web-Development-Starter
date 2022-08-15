@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>This is a fieldset</legend>
+            <label for="">
+                Label
+                <input type="text">
+            </label>
+            <!-- <select name="Sex" id="">
+                <datalist>Male</datalist>
+                <datalist>Female</datalist>
+                <datalist>Rather not to say</datalist> -->
+
+            </select>
+            <textarea name="Description" id="" cols="30" rows="10"></textarea>
+            <button>Submit</button>
+           
+        </fieldset>
+
+        <fieldset>
+            <legend>User Login</legend>
+            <p><label >Username: <input type="text" /></label></p>
+            <p><label >Password: <input type="password" /></label></p>
+            <button>Submit</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>User Registration</legend>
+            <p><label >Username: <input type="text" /></label></p>
+            <p><label >Password: <input type="password" /></label></p>
+            <h3>Select your gender:</h3>
+            <label >Male: <input type="radio" name="Gender" value="Male"/></label>
+            <label >Female: <input type="radio" name="Gender" value="Female"/></label>
+            <label >Rather not to say: <input type="radio" name="Gender" value="Rather not to say"/></label>
+            
+            <button>Submit</button>
+        </fieldset>
+        <fieldset>
+            <legend>Check box</legend>
+            <ul style="list-style-type:none;">
+                <li><input type="checkbox" name="language" value="Burmese" />Hindi</li>
+                <li><input type="checkbox" name="language" value="English" />English</li>
+                <li><input type="checkbox" name="language" value="Japanese" />Sanskrit</li>
+              </ul>
+             </form>
+        </fieldset>
+        <fieldset>
+            <legend>Combobox</legend>
+            <select name="language">
+                <option value="Web">Web Design</option>
+                <option value="C++">C++</option>
+                <option value="others">Others</option>
+              </select>
+        </fieldset>
+    </form>
+</body>
+</html>

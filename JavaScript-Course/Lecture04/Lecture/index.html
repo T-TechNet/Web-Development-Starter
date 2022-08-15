@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <fieldset>
+            <legend>This is a fieldset....</legend>
+            <div>
+                <label for="label">Label: <input type="text" /></label>
+            </div>
+            <div>
+                <p>Please enter description:</p>
+                <textarea name="Description" id="desc" cols="30" rows="10"></textarea>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+        <fieldset>
+            <legend>User Registration</legend>
+            <div>
+                <label>Username: </label>
+                <input type="text" /></label>
+            </div>
+
+            <div>
+                <label>Password: </label>
+                <input type="password" />
+            </div>
+            <div>
+                <label>email: </label>
+                <input type="email" />
+            </div>
+            <div>
+                <h3>Please select your gender:</h3>
+                <label >Male: <input type="radio" name="Gender" value="Male"/></label>
+            <label >Female: <input type="radio" name="Gender" value="Female"/></label>
+            <label >Rather not to say: <input type="radio" name="Gender" value="Rather not to say"/></label>
+            </div>
+            <button>Submit</button>
+        </fieldset>
+        <fieldset>
+            <legend>Combobox</legend>
+            <select name="programming-language" id="p-Lan">
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+                <option value="Others">Others</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Check Box</legend>
+            <ul style="list-style-type: none;">
+                <li><input type="checkbox" name="food" value="Pizza">Pizza</li>
+                <li><input type="checkbox" name="clothes" value="Nike">Nike</li>
+                <li><input type="checkbox" name="Stationary" value="Book">Book</li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>

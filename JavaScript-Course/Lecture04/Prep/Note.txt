@@ -1,0 +1,11 @@
+<label>: It defines label for <form> elements.
+<input>: It is used to get input data from the form in various types such as text, password, email, etc by changing its type.
+<button>: It defines a clickable button to control other elements or execute a functionality.
+<select>: It is used to create a drop-down list.
+<textarea>: It is used to get input long text content.
+<fieldset>: It is used to draw a box around other form elements and group the related data.
+<legend>: It defines caption for fieldset elements.
+<datalist>: It is used to specify pre-defined list options for input controls.
+<output>: It displays the output of performed calculations.
+<option>: It is used to define options in a drop-down list.
+<optgroup>: It is used to define group-related options in a drop-down list.

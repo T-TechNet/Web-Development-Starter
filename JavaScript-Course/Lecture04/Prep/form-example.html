@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- <script src="js/script.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="formHeader">
+            <h2>Registration Form</h2>
+        </div>
+        <form id="form" class="form">
+            
+            <fieldset>
+              <legend>Personal Details</legend>              
+         
+              <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Please enter your username!" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="affl">
+                    Affiliation:
+                </label>
+                    
+                    <select name="affl" id="affl">
+                        <option>--None--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                        <option>Mrs.</option>
+                        <option>Dr.</option>
+                        <option>Prof.</option>
+                    </select>
+               
+                  <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="fullName">Full name: </label>
+                <input name="fullName" placeholder="Name" id="fullName"/>
+                <small>Error message</small>
+            </div> 
+            <div class="form-control">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password" id="password"/>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password2">Confirm:</label>
+            <input type="password2" placeholder="Password" id="password2"/>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <p id="gender">Gender:</p>
+            <label><input type="radio" name="gender" value="male" id="male">Male</label>
+
+            <label><input type="radio" name="gender" value="female" id="female">Female</label>
+          
+            <label><input type="radio" name="gender" value="other" id="other">Other</label>
+            <small>Error message</small>
+        </div>
+        
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Please enter your email!" id="email" />
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <!-- <div id="dobForm"> -->
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="birthDate" id="dob">
+                <small>Error message</small>
+            <!-- </div> -->
+        </div>
+        <div class="form-control">
+            <div id="addressControl">
+            <label for="address">
+                Address :
+            </label>
+                <textarea name="address" cols="60" rows="3" id="address"></textarea>
+                <small>Error message</small>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </fieldset>
+</form>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
