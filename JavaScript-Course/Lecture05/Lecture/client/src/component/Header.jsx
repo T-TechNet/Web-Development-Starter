@@ -1,14 +1,14 @@
-import React from "react";
-import styled from "styled-components";
-import "./Header.css";
+import React from 'react'
+import styled from 'styled-components'
+import './Header.css'
 
-const Container=styled.div`
-    height: 10px;
-    color: red;
+const Container = styled.div`
+  height: 10px;
+  color: blue;
 `
 
 const Header = () => {
-  return <div className="header">This is header part</div>;
-};
+  return <Container>Hello This is The header part!</Container>
+}
 
-export default Header;
+export default Header
